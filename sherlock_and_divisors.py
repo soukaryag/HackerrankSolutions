@@ -2,7 +2,6 @@
 
 import os
 import sys
-import math
 
 #
 # Complete the divisors function below.
