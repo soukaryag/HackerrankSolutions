@@ -7,4 +7,4 @@ Problems attained from `https://www.hackerrank.com/domains/mathematics`
 
 
 ## Contact
-### email : sg4fz@viginial.edu
+### email : sg4fz@virginia.edu
