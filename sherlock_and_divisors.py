@@ -4,6 +4,7 @@ import os
 import sys
 
 #
+#
 # Complete the divisors function below.
 #
 def divisors(n):
