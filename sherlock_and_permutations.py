@@ -9,7 +9,7 @@ def solve(n, m):
 
     total = n + m
 
-    return (factorial(total)) // (factorial(m)*factorial(n))
+    return ((factorial(total)) // (factorial(m)*factorial(n))) %(10**9 +7)
 
 def factorial(n):
     fact = 1
