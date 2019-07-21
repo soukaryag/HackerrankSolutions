@@ -4,14 +4,10 @@ import os
 import sys
 
 #
-# Complete the handshake function below.
+# Complete the lights function below.
 #
-def handshake(n):
-    sum = 0
-    for x in range(0, n):
-        sum += x
-
-    return sum
+def lights(n):
+    return ((2**n) - 1) % (10**5)
 
 if __name__ == '__main__':
     results = []
@@ -20,7 +16,8 @@ if __name__ == '__main__':
     for t_itr in range(t):
         n = int(input())
 
-        result = handshake(n)
+        result = lights(n)
+
         results.append(result)
 
     print(results)
